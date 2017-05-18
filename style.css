@@ -16,24 +16,34 @@ body {
 
 main {
 	width: 850px;
-	/*margin: 0 auto;*/
-	margin: 35px auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	/*margin: auto;*/
 }
 
 h1 {
 	font-family: "Raleway", sans-serif;
 	color: white;
-	color: #od2c40;
+	/*color: #od2c40;*/
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
 	margin: 0;
 }
 
+h2 {
+	font-family: "Raleway", serif;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
 a {
 	font-family: "Raleway", serif;
-	/*color: white;*/
-	color: #f15b31;
+	color: white;
+	/*color: #f15b31;*/
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
@@ -46,13 +56,6 @@ a:hover {
 	color: white;
 }
 
-h2 {
-	font-family: "Raleway", serif;
-	color: #0d2c40;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 20px;
-}
 
 p {
 	font-family: "Droid Serif", serif;
@@ -66,6 +69,7 @@ img {
 
 footer {
 	text-transform: uppercase;
+	margin-top: 20px;
 	padding: 20px;
 	background-color: #0d2c40;
 	color: white;
@@ -74,7 +78,7 @@ footer {
 	font-weight: 500;
 }
 
-.copyright .meesage {
+.copyright .message {
 	font-family: "Raleway", serif;
 }
 
